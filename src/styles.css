@@ -1,0 +1,17 @@
+html,
+body,
+.room {
+  height: 100%;
+  margin: 0;
+}
+.lit {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+body {
+  padding: 5px;
+}

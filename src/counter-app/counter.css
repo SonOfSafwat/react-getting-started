@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  border: 1px solid #979797;
+  width: 163px;
+  height: 109px;
+  box-shadow: 0 2px 6px 0 rgba(34, 34, 34, 0.2);
+  margin: 5px;
+  text-align: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.app button {
+  background-color: #ff625a;
+  border: 1px solid #a34641;
+  color: #fff;
+  box-shadow: 0 0 4px 0 rgba(255, 109, 109, 0.5);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.app button:active {
+  background-color: #b3332d;
+}
+
+.app button:active,
+.app button:focus {
+  outline: 0;
+}
